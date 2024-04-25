@@ -1,6 +1,6 @@
 # React + Vite
 
-Proyecto simple para probar Routes y el uso del hook useParamsSearch.
+Proyecto simple para probar Routes (React Router v6.0) y el uso del hook useParamsSearch.
 
 Se utilizó Bootstrap para agilizar la práctica.
 
