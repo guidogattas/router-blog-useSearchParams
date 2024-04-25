@@ -21,7 +21,8 @@ const Blog = () => {
         // setSearchParams(prevState => ({ ...prevState, filter }));
         filter ? setSearchParams({ filter }) : setSearchParams({});
     }
-    
+
+
 
     return (
         <>
@@ -34,12 +35,18 @@ const Blog = () => {
             />
             <ul className="list-group">
                 {
-                    data.map((item) => (
-                    <Link className="list-group-item" to={`/blog/${item.id}`} key={item.id}>
-                        {item.title}
-                    </Link>
-                    ))
-                }
+                    data
+                        .filter((item) => {
+                            let filter = searchParams.get("filter");
+                            if (!filter) return true;
+                            let name = item.title.toLowerCase();
+                            return name.includes(filter.toLowerCase());
+                        })
+                        .map((item) => (
+                            <Link className="list-group-item" to={`/blog/${item.id}`} key={item.id}>
+                                {item.title}
+                            </Link>
+                        ))}
             </ul>
         </>
     )
