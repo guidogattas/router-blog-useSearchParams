@@ -1,9 +1,8 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto para probar Routes y el uso del hook useParamsSearch.
 
-Currently, two official plugins are available:
+Se utilizó Bootstrap para agilizar la práctica.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# router-blog-useSearchParams
+Para ver la versión Online:
+https://router-blog-usesearchparams.netlify.app/blog?filter=SUNT
