@@ -1,8 +1,9 @@
 # React + Vite
 
-Proyecto para probar Routes y el uso del hook useParamsSearch.
+Proyecto simple para probar Routes y el uso del hook useParamsSearch.
 
 Se utilizó Bootstrap para agilizar la práctica.
 
-Para ver la versión Online:
-https://router-blog-usesearchparams.netlify.app/
+Para ver la versión Online, ingresar a la pestaña Blog:
+- [preview project](https://router-blog-usesearchparams.netlify.app/)
+
